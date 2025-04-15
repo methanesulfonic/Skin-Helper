@@ -1,0 +1,128 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="match_parent"
+        android:layout_height="135dp"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@color/maintheme"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="2dp"
+        app:cardPreventCornerOverlap="true"
+        >
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageViewCancer"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="-25dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/gallery_minimalistic"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textViewConfidenceValue"
+                android:layout_width="75dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="65%"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="@id/imageViewCancer"
+                app:layout_constraintTop_toBottomOf="@id/imageViewCancer" />
+
+            <TextView
+                android:id="@+id/tvCanceris"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="-65dp"
+                android:text="Result:"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toEndOf="@id/imageViewCancer"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textViewClassValue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxWidth="260dp"
+                android:maxLines="2"
+                android:text="Actinic keratosis"
+                android:textColor="@color/white"
+                app:layout_constraintStart_toStartOf="@id/tvCanceris"
+                app:layout_constraintTop_toBottomOf="@id/tvCanceris" />
+
+            <TextView
+                android:id="@+id/tvTglAnalisa"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Date: "
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="@id/tvCanceris"
+                app:layout_constraintTop_toBottomOf="@id/textViewClassValue" />
+
+            <TextView
+                android:id="@+id/textViewTimestamp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="22/10/2024 "
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                app:layout_constraintStart_toStartOf="@id/tvCanceris"
+                app:layout_constraintTop_toBottomOf="@id/tvTglAnalisa" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <!--    <ImageView-->
+    <!--        android:id="@+id/imageViewCancer"-->
+    <!--        android:layout_width="100dp"-->
+    <!--        android:layout_height="100dp"-->
+    <!--        android:scaleType="centerCrop"-->
+    <!--        android:layout_marginBottom="8dp" />-->
+
+    <!--    <TextView-->
+    <!--        android:id="@+id/textViewClassValue"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:text="Class Value"-->
+    <!--        android:textStyle="bold" />-->
+
+    <!--    <TextView-->
+    <!--        android:id="@+id/textViewConfidenceValue"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:text="Confidence Value" />-->
+
+    <!--    <TextView-->
+    <!--        android:id="@+id/textViewTimestamp"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:text="Timestamp" />-->
+
+</LinearLayout>

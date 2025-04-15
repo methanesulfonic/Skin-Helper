@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- FragmentCancerInfo Definition -->
+    <fragment
+        android:id="@+id/cancerInfoFragment"
+        android:name="com.uca.tflitetest.Fragment.FragmentCancerInfo"
+        android:label="Cancer Info"
+        tools:layout="@layout/fragment_cancer_info">
+        <action
+            android:id="@+id/action_cancerInfoFragment_to_cancerInfoDetailsFragment"
+            app:destination="@id/cancerInfoDetailsFragment" />
+    </fragment>
+
+    <!-- FragmentCancerInfoDetails Definition -->
+    <fragment
+        android:id="@+id/cancerInfoDetailsFragment"
+        android:name="com.uca.tflitetest.Fragment.FragmentCancerInfoDetails"
+        android:label="Cancer Info Details"
+        tools:layout="@layout/fragment_cancer_info_details">
+        <!-- Define any arguments if needed here -->
+    </fragment>
+
+</navigation>

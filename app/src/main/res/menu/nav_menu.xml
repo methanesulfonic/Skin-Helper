@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/homeMenu"
+        android:icon="@drawable/home_smile_angle"
+        android:title="home"  />
+    <item
+        android:id="@+id/historyMenu"
+        android:icon="@drawable/history"
+        android:title="History"  />
+    <item
+        android:id="@+id/learnMenu"
+        android:icon="@drawable/book_2"
+        android:title="Learn"  />
+    <item
+        android:id="@+id/profileMenu"
+        android:icon="@drawable/user"
+        android:title="Profile"/>
+
+</menu>

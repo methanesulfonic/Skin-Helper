@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "477583932215",
+    "project_id": "check-cancer",
+    "storage_bucket": "check-cancer.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:477583932215:android:78ec524a2bc143e2bd38b2",
+        "android_client_info": {
+          "package_name": "com.uca.tflitetest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "477583932215-q8e59i35706edshucqkd7huqi2tbdcvl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDWQqO77ockRrGXVeeGL6LhUNUsBwapPOA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "477583932215-q8e59i35706edshucqkd7huqi2tbdcvl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

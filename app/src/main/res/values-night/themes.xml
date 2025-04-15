@@ -1,0 +1,17 @@
+<!--<resources xmlns:tools="http://schemas.android.com/tools">-->
+<!--    &lt;!&ndash; Base application theme. &ndash;&gt;-->
+<!--    <style name="Base.Theme.Tflitetest" parent="Theme.Material3.DayNight.NoActionBar">-->
+<!--        &lt;!&ndash; Customize your dark theme here. &ndash;&gt;-->
+<!--        &lt;!&ndash; <item name="colorPrimary">@color/my_dark_primary</item> &ndash;&gt;-->
+<!--    </style>-->
+<!--</resources>-->
+
+<resources xmlns:tools="http://schemas.android.com/tools">
+<!-- Base application theme. -->
+<style name="Base.Theme.Tflitetest" parent="Theme.Material3.DayNight.NoActionBar">
+    <item name="colorPrimary">@color/dark_maintheme</item>
+    <item name="android:fontFamily">@font/opensans_variable</item>
+</style>
+
+<style name="Theme.Tflitetest" parent="Base.Theme.Tflitetest" />
+</resources>
