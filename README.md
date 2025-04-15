@@ -42,8 +42,6 @@ This app is just a demo and not intended for diagnosis or medical use. Please co
 
 Here are a few screenshots of the SkinHelper app in action:
 
-## Screenshots
-
 | Dashboard | Result |
 |-----------|--------|
 | <img src="https://github.com/methanesulfonic/Skin-Helper/blob/main/demo/dashboad_empty.png?raw=true" width="250" height="500"/> | <img src="https://github.com/methanesulfonic/Skin-Helper/blob/main/demo/dashboard_result.png?raw=true" width="250" height="500"/> |
@@ -74,7 +72,7 @@ Here are a few screenshots of the SkinHelper app in action:
 
 Check out this short video demo of SkinHelper in action:
 
-[![Watch the demo](https://upload.wikimedia.org/wikipedia/commons/e/ef/Youtube_logo.png)](https://www.youtube.com/shorts/72yxcnol74k)
+[![Watch the demo](http://img.youtube.com/vi/72yxcnol74k/mqdefault.jpg)](https://youtube.com/shorts/72yxcnol74k?si=VXY08Ti4jHf9WWz7)
 
 ---
 
